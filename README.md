@@ -8,7 +8,7 @@
 <h1 align="center"><strong>서울시 상권별 외식업 분포 및 매출 특성 분석</strong></h1>
 <p align="center"><strong>매출-유동인구-소득의 상관관계 규명 및 성장•진입 전략 제안</strong></p>
 
-<a href=https://eda-repo-4-hp2bzipnzdbrre9jaeznnw.streamlit.app/>
+<a href="https://eda-repo-4-hp2bzipnzdbrre9jaeznnw.streamlit.app/" target="_blank">
 <img width="1200" height="630" alt="서울시 상권분석 대시보드 스크린샷" src="https://github.com/user-attachments/assets/230310af-45e1-488d-a16a-95c1eb205c8e" />
 </a>
 
@@ -25,7 +25,41 @@
   | 양효인 | 데이터 분석, DB 설계, 대시보드 구현 및 배포 | [@hyoinyang](https://github.com/hyoinyang) | hyoinyang02@gmail.com |
   
 </div>
-<br><br>
+<br>
+<br>
+
+## 📌 프로젝트 개요
+ **서울시 상권 데이터를 기반으로 외식업 시장의 매출, 유동인구, 소득 간의 상관관계를 분석**하고,  
+ 이를 통해 **데이터 기반의 상권 인사이트를 도출**하는 것을 목표로 합니다.
+
+ 단순한 통계 확인을 넘어, 상권별 특성을 다각도로 분석함으로써  
+**외식업 창업자들이 합리적인 의사결정을 내릴 수 있도록 실질적인 근거를 제시합니다.**
+<br>
+<br>
+## 📊 데이터 개요
+
+서울시 열린데이터 광장 공공데이터를 기반으로, 2024년 분기별 상권별/업종별 매출, 점포 수, 유동·상주·직장 인구, 행정동별 소득 데이터를 활용했습니다.
+
+| 구분 | 데이터 | 설명 | 링크 |
+|------|-------|------|------|
+| 상권 기본정보 | 영역-상권 | 상권 소속 행정구역 및 면적 | [영역-상권](https://data.seoul.go.kr/dataList/OA-15560/S/1/datasetView.do) |
+| 상권 기본정보 | 점포-상권 | 점포 수, 유사업종점포수, 개폐업율 | [점포-상권](https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do) |
+| 추정매출 | 추정매출-상권 | 시간대별/요일별/연령별 매출 | [추정매출-상권](https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do#) |
+| 유동인구 | 길단위인구-상권 | 시간대별/요일별 유동인구 | [길단위인구-상권](https://data.seoul.go.kr/dataList/OA-15568/S/1/datasetView.do) |
+| 유동인구 | 상주인구-상권 | 성별, 연령대별 인구 | [상주인구-상권](https://data.seoul.go.kr/dataList/OA-15584/S/1/datasetView.do) |
+| 유동인구 | 직장인구-상권 | 성별, 연령대별 인구 | [직장인구-상권](https://data.seoul.go.kr/dataList/OA-15569/S/1/datasetView.do) |
+| 소득 | 소득소비-행정동 | 월평균소득 및 구매력 지표<br>※ 상권 및 배후지 단위는 면적이 작아 최신 데이터 제공이 제한됨.<br>잠재적 소비자가 있는 행정동 단위로 확장하여 분석| [소득소비-행정동](https://data.seoul.go.kr/dataList/OA-22166/S/1/datasetView.do) |
+
+### 데이터 전처리
+- 상권, 업종, 점포수, 매출, 인구, 소득 데이터를 통합
+- 결측치 및 이상치 제거
+- 상권 단위로 점포 수, 매출, 유동인구, 소득 지표 집계
+- 시간대, 요일, 연령대, 성별별 매출·인구 분포 계산
+<br>
+
+## 🔍 주요 분석 내용
+### dafsdf
+----
 
 ## 데이터 개요
 
@@ -35,22 +69,22 @@
 
 * 상권 기본정보
 
-  * 영역-상권 (상권 소속 행정구역 및 면적정보) 서울시 상권분석서비스([영역-상권](https://data.seoul.go.kr/dataList/OA-15560/S/1/datasetView.do)) 
-  * 점포-상권 (점포수, 유사업종점포수, 개폐업율) 서울시 상권분석서비스([점포-상권](https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do))
+  * 영역-상권 (상권 소속 행정구역 및 면적정보)([영역-상권](https://data.seoul.go.kr/dataList/OA-15560/S/1/datasetView.do)) 
+  * 점포-상권 (점포수, 유사업종점포수, 개폐업율)([점포-상권](https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do))
 
 * 추정매출
 
-  * 추정매출-상권 (24년 시간대별/요일별/연령별 매출) 서울시 상권분석서비스([추정매출-상권](https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do#)) 
+  * 추정매출-상권 (24년 시간대별/요일별/연령별 매출)([추정매출-상권](https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do#)) 
 
 * 유동인구 데이터
 
-  * 길단위인구-상권 (상권별 시간대별/요일별 유동인구) 서울시 상권분석서비스([길단위인구-상권](https://data.seoul.go.kr/dataList/OA-15568/S/1/datasetView.do)) 
-  * 상주인구-상권 (성별, 연령대별) 서울시 상권분석서비스([상주인구-상권](https://data.seoul.go.kr/dataList/OA-15584/S/1/datasetView.do)) 
-  * 직장인구-상권 (성별, 연령대별) 서울시 상권분석서비스([직장인구-상권](https://data.seoul.go.kr/dataList/OA-15569/S/1/datasetView.do)) 
+  * 길단위인구-상권 (상권별 시간대별/요일별 유동인구)([길단위인구-상권](https://data.seoul.go.kr/dataList/OA-15568/S/1/datasetView.do)) 
+  * 상주인구-상권 (성별, 연령대별)([상주인구-상권](https://data.seoul.go.kr/dataList/OA-15584/S/1/datasetView.do)) 
+  * 직장인구-상권 (성별, 연령대별)([직장인구-상권](https://data.seoul.go.kr/dataList/OA-15569/S/1/datasetView.do)) 
 
 * 월평균소득(구매력데이터)
 
-  * 소득소비 - 행정동 서울시 상권분석서비스 ([소득소비-행정동](https://data.seoul.go.kr/dataList/OA-22166/S/1/datasetView.do)) 
+  * 소득소비 - 행정동([소득소비-행정동](https://data.seoul.go.kr/dataList/OA-22166/S/1/datasetView.do)) 
   * (상권 및 상권배후지는 소득데이터 수집하기에 면적이 너무 작아서 19년 이후 업데이트 중지되었기에, 최근데이터까지 업데이트되어 있고 잠재적 소비자가 있는 행정동단위로 확대하여 소득소비 지표 판단)
 <br>
 <br>
