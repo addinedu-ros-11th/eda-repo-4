@@ -14,7 +14,7 @@
 <p align="center"><strong>매출-유동인구-소득의 상관관계 규명 및 성장•진입 전략 제안</strong></p>
 
 ## 🎥 Main Demo
-https://github.com/user-attachments/assets/8278b297-a24c-44eb-9e95-af9e22f686f0
+https://github.com/user-attachments/assets/655939e6-6c4c-4f66-aee9-3bd2be5c440d
 <!-- <a href="https://eda-repo-4-hp2bzipnzdbrre9jaeznnw.streamlit.app/" target="_blank">
 <img width="1200" height="630" alt="서울시 상권분석 대시보드 스크린샷" src="https://github.com/user-attachments/assets/230310af-45e1-488d-a16a-95c1eb205c8e" />
 </a> -->
