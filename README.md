@@ -57,6 +57,7 @@ https://github.com/user-attachments/assets/655939e6-6c4c-4f66-aee9-3bd2be5c440d
 - 상권 단위로 점포 수, 매출, 유동인구, 소득 지표 집계
 - 시간대, 요일, 연령대, 성별별 매출·인구 분포 계산
 
+### AWS RDS ERD
 ![ERD](https://private-user-images.githubusercontent.com/179550301/526397106-5c128993-4b85-48ee-a570-1865350f9a8b.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3NzU5NTksIm5iZiI6MTc2NTc3NTY1OSwicGF0aCI6Ii8xNzk1NTAzMDEvNTI2Mzk3MTA2LTVjMTI4OTkzLTRiODUtNDhlZS1hNTcwLTE4NjUzNTBmOWE4Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxNVQwNTE0MTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MzA3OWJiOTZkNTJhZDU3NDE4ZjM5NmIxZTg4NjRiZWE2NDU5ZDM1MDUzZDExMzJhMDczODFhZWVlMjJkYTc3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.8pPU1hhdz_omtr3YZH5kEUt9gx911h8NzHLAoD3NbI4)
 
 ---
@@ -77,7 +78,9 @@ https://github.com/user-attachments/assets/655939e6-6c4c-4f66-aee9-3bd2be5c440d
 
 ## 🎥 점포 수 Bar Graph 및 Tree Map
 https://github.com/user-attachments/assets/121bd91b-8637-4053-859a-c5899f0d1944
+
 https://github.com/user-attachments/assets/1272bb97-06de-4501-b60b-da73d802ebfc
+
 ---
 
 ### 2. 매출 정보 분석
@@ -210,6 +213,8 @@ https://github.com/user-attachments/assets/8278b297-a24c-44eb-9e95-af9e22f686f0
 ---
 
 ## 🛠 Collaboration Tool
+### Confluence
 ![Confluence](https://private-user-images.githubusercontent.com/179550301/526397109-477a53cc-383a-4905-89a7-fac4965462be.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3NzU5NTksIm5iZiI6MTc2NTc3NTY1OSwicGF0aCI6Ii8xNzk1NTAzMDEvNTI2Mzk3MTA5LTQ3N2E1M2NjLTM4M2EtNDkwNS04OWE3LWZhYzQ5NjU0NjJiZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxNVQwNTE0MTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZDk4NDk3YjkzOGE1ZjM1MzY3YmFlZDk1YTBhMDRhZjRlY2I0NzEwZWQxZmFiZTNiZThiZjdkYTAzNjI4MmIzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.hJstiX8TaHr2BCz5XFYfIyMDF9uP4p-YyVJI6a6xsBs)
+### Jira
 ![JIRA](https://private-user-images.githubusercontent.com/179550301/526397108-6dfacfd5-def9-4ea7-9385-29f5d5f4e989.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3NzU2OTQsIm5iZiI6MTc2NTc3NTM5NCwicGF0aCI6Ii8xNzk1NTAzMDEvNTI2Mzk3MTA4LTZkZmFjZmQ1LWRlZjktNGVhNy05Mzg1LTI5ZjVkNWY0ZTk4OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxNVQwNTA5NTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMjNmYmJkYzk0MjQ2MzIwY2IzOTNjODY0YTg2YmU1MzVjOGVkMTQxZjRiOTVmMTc5M2QwYzNhN2Y2YzJhNDA4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.AmlELbk83m7wEYFJv08bZ-65ZYMvCBvmwECg298FoLo)
 
